@@ -18,5 +18,9 @@ final class FramworkGridViewModel: ObservableObject {
     
     // To broadcast - Published
     @Published var isShowingDetailView = false
+    
+    let columns: [GridItem] = [GridItem(.flexible()),
+                               GridItem(.flexible()),
+                               GridItem(.flexible())]
 }
  
