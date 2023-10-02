@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		180AD06D2ACAAE050024428E /* FrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180AD06C2ACAAE050024428E /* FrameworkGridViewModel.swift */; };
+		180AD06F2ACAB7DA0024428E /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180AD06E2ACAB7DA0024428E /* SafariView.swift */; };
 		187B951B2ACAA50E001733BA /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B951A2ACAA50E001733BA /* AFButton.swift */; };
 		FD1543F72AC9F93700FC2C5F /* FrameWorkAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1543F62AC9F93700FC2C5F /* FrameWorkAppApp.swift */; };
 		FD1543FB2AC9F93800FC2C5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD1543FA2AC9F93800FC2C5F /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		180AD06C2ACAAE050024428E /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
+		180AD06E2ACAB7DA0024428E /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		187B951A2ACAA50E001733BA /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
 		FD1543F32AC9F93700FC2C5F /* FrameWorkApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrameWorkApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD1543F62AC9F93700FC2C5F /* FrameWorkAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameWorkAppApp.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				180AD06C2ACAAE050024428E /* FrameworkGridViewModel.swift */,
 				FD1544082ACA002E00FC2C5F /* DetailView.swift */,
 				187B951A2ACAA50E001733BA /* AFButton.swift */,
+				180AD06E2ACAB7DA0024428E /* SafariView.swift */,
 				FD1543FC2AC9F93800FC2C5F /* Preview Content */,
 			);
 			path = FrameWorkApp;
@@ -155,6 +158,7 @@
 				187B951B2ACAA50E001733BA /* AFButton.swift in Sources */,
 				FD1543F72AC9F93700FC2C5F /* FrameWorkAppApp.swift in Sources */,
 				180AD06D2ACAAE050024428E /* FrameworkGridViewModel.swift in Sources */,
+				180AD06F2ACAB7DA0024428E /* SafariView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
