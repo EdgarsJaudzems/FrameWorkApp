@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-// ViewModel
 final class FramworkGridViewModel: ObservableObject {
     
     var selectedFramework: Framework? {
@@ -23,4 +22,5 @@ final class FramworkGridViewModel: ObservableObject {
                                GridItem(.flexible()),
                                GridItem(.flexible())]
 }
+
  

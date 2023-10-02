@@ -30,8 +30,14 @@ struct DetailView: View {
             Button {
                 isShowingSafariView = true
             } label: {
-                AFButton(title: "Learn More")
+                // AFButton(title: "Learn More")
+                Label("Learn More", systemImage: "book.fill")
             }
+            // Modifiers for new button
+            .buttonStyle(.bordered)
+            .controlSize(.large)
+            .tint(.red)
+            
       
         }
         .fullScreenCover(isPresented: $isShowingSafariView) {
